@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/3538607.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -53,8 +53,8 @@ const About = () => {
       <img className="background" src={image} alt={imageAltText} />
       <div
         style={{
-          backgroundColor: "white",
-          width: "50%",
+          backgroundColor: "#4E567E",
+          width: "60%",
           padding: "4rem",
           margin: "3rem auto",
           textAlign: "center",
@@ -65,7 +65,7 @@ const About = () => {
         <hr />
         <ul
           style={{
-            textAlign: "left",
+            textAlign: "center",
             columns: 2,
             fontSize: "1.25rem",
             margin: "2rem 3rem",
