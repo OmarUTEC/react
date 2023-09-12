@@ -1,4 +1,12 @@
-
+/**
+ * Footer component
+ *
+ * Displays avenues to contact you.
+ * Contact information is passed in from the App component that
+ * renders the Footer.
+ *
+ * If a social value has an empty string it will not be displayed.
+ */
 import React from "react";
 import PropTypes from "prop-types";
 
@@ -10,7 +18,13 @@ import linkedInIcon from "../images/socials/linkedin.svg";
 import mediumIcon from "../images/socials/medium.svg";
 import twitterIcon from "../images/socials/twitter.svg";
 import youTubeIcon from "../images/socials/youtube.svg";
-import chessIcon from "../images/socials/chesscom.svg";
+
+/**
+ * 💡 Learning resources
+ *
+ *  HTML hyperlinks: https://www.w3schools.com/html/html_links.asp
+ *  Opening links in new tabs: https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/
+ */
 
 const Footer = (props) => {
   const {
@@ -24,7 +38,6 @@ const Footer = (props) => {
     primaryColor,
     twitter,
     youTube,
-    chesscom,
   } = props;
 
   return (
@@ -37,7 +50,7 @@ const Footer = (props) => {
         gap: "2.5rem",
         padding: "5rem 0 3rem",
         backgroundColor: primaryColor,
-        width: "100vw"
+        width: "100vw",
       }}
     >
       <div
@@ -58,7 +71,7 @@ const Footer = (props) => {
           </a>
         )}
         {gitHub && (
-          <a href={`https://github.com/OmarUTEC`} target="_blank" rel="noopener noreferrer">
+          <a href={`https://github.com/${gitHub}`} target="_blank" rel="noopener noreferrer">
             <img src={gitHubIcon} alt="GitHub" className="socialIcon" />
           </a>
         )}
@@ -73,7 +86,7 @@ const Footer = (props) => {
         )}
         {linkedIn && (
           <a
-            href={`https://www.linkedin.com/in/omar-chavarria-57b145237/`}
+            href={`https://www.linkedin.com/in/${linkedIn}`}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -103,13 +116,6 @@ const Footer = (props) => {
       <p className="small" style={{ marginTop: 0, color: "white" }}>
         Created by {name}
       </p>
-
-      {chesscom && (
-        <a href={`https://www.chess.com/member/${chesscom}`} target="_blank" rel="noopener noreferrer">
-          <img src={chessIcon} alt="Chess.com" className="socialIcon" />
-        </a>
-      )}
-
     </div>
   );
 };
@@ -119,7 +125,6 @@ Footer.defaultProps = {
 };
 
 Footer.propTypes = {
-  
   devDotTo: PropTypes.string,
   email: PropTypes.string,
   gitHub: PropTypes.string,
@@ -130,8 +135,6 @@ Footer.propTypes = {
   primaryColor: PropTypes.string,
   twitter: PropTypes.string,
   youTube: PropTypes.string,
-  chesscom: PropTypes.string,
-
 };
 
 export default Footer;
