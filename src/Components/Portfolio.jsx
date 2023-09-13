@@ -31,16 +31,16 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Equipo de lichess CHECKMATE ♟️",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Contamos con más de 6k miembros en nuestra comunidad de ajedrez y somos unos de los equipos más grandes de habla hispana en lichess.org.",
+    url: "https://lichess.org/team/maestros-checkmate-mundial",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Comunidad de discord CHECK++ ♟️🐧",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Únete a nuestra comunidad de discord donde se comparten temas relacionados al ajedrez, programación, y redes.",
+    url: "https://discord.gg/63tk9xtw",
   },
   {
     title: "My Resume Site",
