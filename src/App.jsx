@@ -33,6 +33,7 @@ const siteProps = {
   medium: "",
   twitter: "microsoft",
   youTube: "Code",
+  chesscom: "Omar_66",
 };
 
 const primaryColor = "#1A5276";
