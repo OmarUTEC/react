@@ -34,7 +34,7 @@ const siteProps = {
   twitter: "microsoft",
   youTube: "Code",
   chesscom: "Omar_66",
-  // discord
+  discord: "name_user",
 };
 
 const primaryColor = "#1A5276";
