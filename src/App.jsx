@@ -16,9 +16,9 @@ import "./styles.css";
 
 const siteProps = {
   name: "Omar Chavarria",
-  title: "Web Designer & Developer",
+  title: "Web Designer && Developer",
   email: "alex@example.com",
-  gitHub: "microsoft",
+  gitHub: "OmarUTEC",
   instagram: "microsoft",
   linkedIn: "satyanadella",
   medium: "",
